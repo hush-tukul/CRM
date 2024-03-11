@@ -21,18 +21,14 @@
                 <li><a href="#"><i class="fa fa-folder-open"></i>Диск</a></li>
                 <li><a href="#"><i class="fa fa-file"></i>Отчеты</a></li>
                 <li><a href="#"><i class="fa-solid fa-user-tie"></i>Менеджеры</a></li>
-{#                <li><a href="#"><i class="fa fa-sign-out"></i>Выйти</a></li>#}
                 <form method="post" action="{% url 'logout' %}" class="text-white">
-                {% csrf_token %}
-                <button type="submit" class="fa fa-sign-out">Выйти</button>
-            </form>
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-link"><i class="fa fa-sign-out"></i>Выйти</button>
+                </form>
             </ul>
             <div class="messanger">
                 <a href="#"><i class="fa-solid fa-comments"></i>Messanger</a>
             </div>
         </nav>
     </div>
-
-
-
 {% endblock %}
