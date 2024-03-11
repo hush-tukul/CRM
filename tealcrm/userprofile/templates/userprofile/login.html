@@ -20,9 +20,14 @@
                             <h2 class="fw-bold mb-2 satisfy-regular">TrustCRM</h2>
                             <p class="text-white-50 mb-5">Please enter your login and password!</p>
                             {% for field in form %}
-                                <div class="form-outline form-white mb-4">
+                                <div class="form-outline form-white mb-4 custom-input">
                                     {{ field.label_tag }}
                                     {{ field }}
+                                    <style>
+                                        .custom-input input {
+                                            color: black;
+                                        }
+                                    </style>
                                 </div>
                             {% endfor %}
 
