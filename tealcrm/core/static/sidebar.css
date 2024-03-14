@@ -121,6 +121,13 @@ ul li:hover a {
     transform: scale(1.2);
 }
 
+#box {
+    width: 300px;
+    height: 55.6px;
+}
+
+
+
 
 
 
