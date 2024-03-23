@@ -10,9 +10,9 @@
 
     <div class="wrapper d-flex align-items-stretch">
         <nav id="sidebar">
-            <div class="img bg-wrap text-center py-4" style="background-image: url({% static 'img/bg_1.jpg' %});"></div>
+            <div class="img bg-wrap text-center py-4" style="background-image: url({% static 'img/bg_1.webp' %});"></div>
             <div class="user-logo">
-                <div class="img2" style="background-image: url({% static 'img/logo.jpg' %});"></div>
+                <div class="img2" style="background-image: url({% static 'img/logo.webp' %});"></div>
                 <h3 class="user">Roman</h3>
             </div>
             <ul>
@@ -23,7 +23,7 @@
                 <li><a href="#"><i class="fa fa-folder-open"></i>Диск</a></li>
                 <li><a href="#"><i class="fa fa-file"></i>Отчеты</a></li>
                 <li><a href="#"><i class="fa-solid fa-user-tie"></i>Менеджеры</a></li>
-                <li>
+                <li id="logout">
                     <form method="post" action="{% url 'logout' %}">
                         <a id="box" href="#">
                             {% csrf_token %}
@@ -37,4 +37,5 @@
             </div>
         </nav>
     </div>
+    <script src="{% static 'js/index.js' %}"></script>
 {% endblock %}

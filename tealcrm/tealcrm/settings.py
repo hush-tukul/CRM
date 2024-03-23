@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-q@iiazghirmgey()vhwfo0^%a^ls0-)i3i%_8(elferehez=*)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['trustcrm.pl', 'www.trustcrm.pl', '127.0.0.1']
+ALLOWED_HOSTS = ['trustcrm.pl', 'www.trustcrm.pl', '127.0.0.1', '37.60.249.184']
 
 LOGIN_REDIRECT_URL = '/dashboard/'
 LOGIN_URL = 'login'
