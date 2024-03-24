@@ -12,12 +12,6 @@ urlpatterns = [
     path('dashboard/', include('dashboard.urls')),
     path('about/', about, name='about'),
     path('sign-up/', signup, name='signup'),
-    # path('log-in/',
-    #      views.LoginView.as_view(
-    #          template_name='userprofile/login.html'
-    #      ),
-    #      name='login'
-    #      ),
     path('log-in/', login_view, name='login'),
     path('log-out/',
          views.LogoutView.as_view(),
