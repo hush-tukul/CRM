@@ -2,7 +2,7 @@
 from django.contrib import admin
 from django.urls import path, include
 from django.contrib.auth import views
-from core.views import index, about
+from core.views import index, about, clients, estate
 from userprofile.views import signup
 from userprofile.views import login_view
 
@@ -18,4 +18,6 @@ urlpatterns = [
          name='logout'
          ),
     path("admin/", admin.site.urls),
+    path('clients/', clients, name='clients'),
+    path('estate/', clients, name='estate'),
 ]
